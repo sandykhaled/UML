@@ -20,7 +20,7 @@
         6. Timing Diagram
         7. Interaction overview Diagram
         8. Sequence Diagram
-
+_____________________________________________
 
 **Class Diagram**
 1. Static Snapshot: A class diagram is like a frozen frame capturing the static structure of an application.
@@ -32,15 +32,15 @@
    **Part 1:** Class Name - The name starts with a capital letter. For abstract classes, it's written in an italic style. <br/>
    **Part 2:** Attributes - The characteristics of the class are listed here.  <br/>
    **Part 3:** Methods - The behaviors come to life with data types, and they sport special signs for access modifiers or class visibility:  <br/>
-   1. {+} public
+   1. {+} public 
    2. {-} private
    3. {#} protected
    4. {~} package local <br/>
    
-    Method parameters are defined as:
-   **method (in p1:boolean) :string** //for input
-   **method (inout p1:boolean) :string**   //When it's input-output.
-   **method (out p1:boolean) :string**    //Reserved for output.
+    Method parameters are defined as: <br/>
+   **method (in p1:boolean) :string** //for input <br/>
+   **method (inout p1:boolean) :string**   //When it's input-output. <br/>
+   **method (out p1:boolean) :string**    //Reserved for output. <br/>
    **Relationships between classes are the threads that weave the fabric of your application:**
 
    1. **Association** - A connection between classes.
