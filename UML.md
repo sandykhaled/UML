@@ -22,7 +22,7 @@
         8. Sequence Diagram
 _____________________________________________
 
-**Class Diagram**
+**1-Class Diagram**
 1. Static Snapshot: A class diagram is like a frozen frame capturing the static structure of an application.
 2. Components on Display: It showcases a collection of classes, interfaces, associations, collaborations, and constraints.
 3. Blueprint for the Future: It forms the foundation for component and deployment diagrams.
@@ -51,6 +51,42 @@ _____________________________________________
    6. **Composition** - A special case of aggregation. The aggregator class holds the power to destroy.
    Writing a class diagram is like crafting a blueprint for your software masterpiece, where each element has its place and purpose.
 
+   ______________________________
+
+   **2-Component Diagram**
    
-    
-        
+A component diagram is a type of diagram used in UML (Unified Modeling Language) to model the physical aspects of a system. It visualizes the components of a system, which are physical elements such as executables, libraries, files, documents, and more. This diagram helps describe the organization and relationships between these components.
+
+   **Where To Use component Diagram**
+   1.**Modeling Components:** <br/>
+     Component diagrams are used to model the components of a system, making it easier to understand the structure of the system.
+   
+   2. **Modeling Database Schema:** <br/>
+     They can be used to model the database schema, showing how components interact with the database.
+
+   3. **Modeling Executables:** <br/>
+       Component diagrams can represent the executables and applications in a system, providing insight into their relationships.
+      
+   5. **Modeling Source Code:** <br/>
+       They can also be used to model the system's source code, illustrating how different code components work together.
+1. **Node (Component):** <br/>
+   Each node in the component diagram represents a component. A component can consist of one or more classes, and it is typically depicted as a rectangle.
+   
+2. **Edge (Relationship):** <br/>
+   Relationships between components are represented by edges. There are two types of edges: dashed and solid, which indicate different types of 
+   relationships between components.
+      
+3. **Lollipop:** <br/>
+    A circle symbol in a component diagram typically represents an interface, indicating that the component provides or implements certain interfaces.
+   
+4. **Required Interface:** <br/>
+     A semicircle symbol is used to represent a required interface, signifying that a component relies on or requires a specific interface.
+   
+5. **Square (Port):** <br/>
+    A square symbol may be used to denote a port within a component, allowing for connections to other components or external entities.
+   
+6. **Constraint:** <br/>
+    Constraints are expressed as text in natural language and provide additional information about the components or relationships in the diagram.
+   <br/>
+By using these symbols and notations in a component diagram, you can create visual representations of the physical structure of a system, making it easier to understand and communicate the organization and relationships of its components. This is particularly valuable in the design and documentation of software systems and other complex systems.
+   
