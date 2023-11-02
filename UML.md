@@ -53,9 +53,12 @@ _____________________________________________
 
    ______________________________
 
-   **2-Component Diagram**
+**2-Component Diagram**
    
-A component diagram is a type of diagram used in UML (Unified Modeling Language) to model the physical aspects of a system. It visualizes the components of a system, which are physical elements such as executables, libraries, files, documents, and more. This diagram helps describe the organization and relationships between these components.
+      A component diagram is a type of diagram used in UML (Unified Modeling Language) to model the physical aspects of a system. It visualizes the 
+   components of a system, which are physical elements such as executables, libraries, files, documents, and more. This diagram helps describe the 
+   organization and 
+   relationships between these components.
 
    **Where To Use component Diagram**
    1.**Modeling Components:** <br/>
