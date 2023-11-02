@@ -36,19 +36,20 @@
    2. {-} private
    3. {#} protected
    4. {~} package local <br/>
+   
     Method parameters are defined as:
    **method (in p1:boolean) :string** //for input
    **method (inout p1:boolean) :string**   //When it's input-output.
    **method (out p1:boolean) :string**    //Reserved for output.
    **Relationships between classes are the threads that weave the fabric of your application:**
 
-1. ***Association** - A connection between classes.
-2. **Inheritance** (Generalization) - The parent-child bond.
-3. **Realization** - Clarifying the relationship between interfaces and their implementers.
-4. **Dependency** - When one class relies on another.
-5. **Aggregation** - One class comprises multiple classes. Removing it doesn't affect the others.
-6. **Composition** - A special case of aggregation. The aggregator class holds the power to destroy.
-Writing a class diagram is like crafting a blueprint for your software masterpiece, where each element has its place and purpose.
+   1. **Association** - A connection between classes.
+   2. **Inheritance** (Generalization) - The parent-child bond.
+   3. **Realization** - Clarifying the relationship between interfaces and their implementers.
+   4. **Dependency** - When one class relies on another.
+   5. **Aggregation** - One class comprises multiple classes. Removing it doesn't affect the others.
+   6. **Composition** - A special case of aggregation. The aggregator class holds the power to destroy.
+   Writing a class diagram is like crafting a blueprint for your software masterpiece, where each element has its place and purpose.
 
    
     
