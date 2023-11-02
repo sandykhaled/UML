@@ -41,6 +41,7 @@
    **method (inout p1:boolean) :string**   //When it's input-output.
    **method (out p1:boolean) :string**    //Reserved for output.
    **Relationships between classes are the threads that weave the fabric of your application:**
+
 1. ***Association** - A connection between classes.
 2. **Inheritance** (Generalization) - The parent-child bond.
 3. **Realization** - Clarifying the relationship between interfaces and their implementers.
@@ -50,5 +51,5 @@
 Writing a class diagram is like crafting a blueprint for your software masterpiece, where each element has its place and purpose.
 
    
-   أخ 
+    
         
