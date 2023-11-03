@@ -293,3 +293,24 @@ In state diagrams, events can be categorized into several types:
 **Signal Events:** Signal events are external signals or messages that trigger state transitions. These signals can come from other objects, systems, or external sources, and they cause the object to change state.
 
 **Change Events:** Change events are triggered when certain conditions or data values change. These events represent state transitions based on changes in attributes, variables, or conditions within the system.
+
+**11- sequance Diagram**
+A sequence diagram is a type of UML (Unified Modeling Language) diagram used to visualize the interactions and communication between different components, objects, or actors in a system. It is particularly useful for modeling the dynamic behavior of a system by showing the sequence of messages and actions that take place over time.
+**Key Components of a Sequance Diagram**
+
+ 1. **Actors:** These are external entities or objects that interact with the system. Actors are represented by stick figures.
+
+ 2. **Lifelines:** Lifelines represent the objects or components involved in the sequence of interactions. They are depicted as vertical lines.
+
+ 3. **Messages:** Messages represent the communication or interaction between lifelines. There are two main types of messages:
+
+      1. **Synchronous message:** Denoted by a solid arrow, it indicates a direct and immediate communication between objects. The sender of the message 
+      waits for a response before proceeding.
+      2. **Asynchronous message:** Denoted by a dashed arrow, it represents a message where the sender does not wait for an immediate response and can 
+      continue its operations.
+______________________________
+**12- Communication Diagram**
+1. subtypes of interaction diagram
+2. show how the object to interact with each other
+3. it was called collabration diagram prior uml 2.0
+4. the main purpose to model messages between objects 
